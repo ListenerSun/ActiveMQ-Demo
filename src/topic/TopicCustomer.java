@@ -12,7 +12,7 @@ public class TopicCustomer {
         // 1.创建一个连接工厂 （Activemq的连接工厂）参数：指定连接的activemq的服务
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("admin", "admin", "tcp://ip:61616");
 
-        // 2.获取连接
+        // 2.获取连接 111
         Connection connection = connectionFactory.createConnection();
         // 3.开启连接
         connection.start();
